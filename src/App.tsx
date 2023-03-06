@@ -7,7 +7,7 @@ import ChartTwoLines from "./components/ChartWithTwoLines/ChartTwoLines";
 const App = () => {
 
     return (
-        <div className={styles.container}>
+        <div id={'app'} className={styles.container}>
             <div className={styles.oneLineChart}>
                 {/*TODO: передавать в DynamicsBlock значение текущей активной точки из Chart*/}
                 {/*скорее всего получится передать это значение из функции formatter*/}

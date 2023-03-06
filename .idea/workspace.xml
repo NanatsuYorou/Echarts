@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e96a9f4-bb47-45f5-b0ef-f8be77041784" name="Changes" comment="График на Apache Echarts">
-      <change afterPath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChartWithTwoLines/Options.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/media.module.scss" afterDir="false" />
+    <list default="true" id="8e96a9f4-bb47-45f5-b0ef-f8be77041784" name="Changes" comment="Добавление скролла для мобильной версии">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DynamicsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicsBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithOneLine/Options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToolTip.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/setTooltip.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/setTooltip.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithOneLine/Chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartWithTwoLines/ChartTwoLines.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +57,36 @@
       <recent name="C:\Users\rusla\OneDrive\Рабочий стол\react\chart\src\components\ChartWithOneLine" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.analyze">
     <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="analyze" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="analyze" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.analyze" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +100,7 @@
       <workItem from="1677736339513" duration="1629000" />
       <workItem from="1677738359279" duration="19806000" />
       <workItem from="1677818526642" duration="17547000" />
-      <workItem from="1678077681826" duration="1681000" />
+      <workItem from="1678077681826" duration="5339000" />
     </task>
     <task id="LOCAL-00001" summary="График на Apache Echarts">
       <created>1677828223162</created>
@@ -92,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677828223162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавление скролла для мобильной версии">
+      <created>1678079468909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678079468909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="График на Apache Echarts" />
-    <option name="LAST_COMMIT_MESSAGE" value="График на Apache Echarts" />
+    <MESSAGE value="Добавление скролла для мобильной версии" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление скролла для мобильной версии" />
   </component>
 </project>
