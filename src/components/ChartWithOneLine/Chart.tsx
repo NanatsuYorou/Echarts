@@ -1,7 +1,7 @@
 import React from 'react';
-import {EChart} from '@hcorta/react-echarts'
-import options from './Options'
-import styles from "../components/Chart.module.scss";
+import {EChart} from '@hcorta/react-echarts';
+import options from './Options';
+import styles from './Chart.module.scss';
 
 const Chart = () => {
 
@@ -10,6 +10,7 @@ const Chart = () => {
             {/*TODO: передавать в объект options входные данные для графиков,
             сейчас они указываются хардкодно, и лежат вместе со стилями графика что не очень удобно*/}
             {/*TODO: сделать скролл у графика при уменьшении его размера, возможно получится через dataZoom*/}
+            {/*TODO: выделять активные точки на графике цветом*/}
             <EChart {...options} />
         </div>
     )

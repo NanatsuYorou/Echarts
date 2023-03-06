@@ -1,6 +1,6 @@
 import React, {FunctionComponent} from 'react';
-import styles from './DynamicsBlock.module.scss'
-import clsx from "clsx";
+import styles from './DynamicsBlock.module.scss';
+import clsx from 'clsx';
 
 type Props = {
     income: number

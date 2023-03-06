@@ -1,0 +1,24 @@
+@import 'src/styles/media.module';
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  @include mediaS {
+    display: block;
+  }
+}
+
+.test + div {
+  display: none;
+}
+
+.select {
+  padding: 5px 6px;
+  border: 1px solid #BABDBF;
+  margin: 0 auto 15px auto;
+  @include mediaS {
+    width: 290px;
+    height: 40px;
+    padding: 10px 12px;
+  }
+}

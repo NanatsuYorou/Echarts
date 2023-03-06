@@ -1,6 +1,6 @@
-import {setTooltip} from "../utils/setTooltip";
-import {ChartPoint} from '../types/interfaces'
-import {EChartsOption} from "../types/interfaces"
+import {setTooltip} from '../../utils/setTooltip';
+import {ChartPoint} from '../../types/interfaces';
+import {EChartsOption} from '../../types/interfaces';
 
 const chartSourceData: ChartPoint[] = [
     ['Янв', 100],
@@ -26,6 +26,21 @@ const option: EChartsOption = {
             color: "#fff"
         }
     },
+    grid: {
+        left: '0%',
+        right: '5%',
+        bottom: '3%',
+        containLabel: true,
+    },
+    dataZoom: [{
+        type: 'inside',
+        xAxisIndex: 0,
+        start: 0,
+        end: 30,
+        zoomOnMouseWheel: false,
+        moveOnMouseMove: true,
+        moveOnMouseWheel: true
+    }],
     color: "#959799",
     backgroundColor: "#3C444E",
     xAxis: {

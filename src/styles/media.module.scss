@@ -1,0 +1,21 @@
+$mediaL: 1440px;
+$mediaM: 1024px;
+$mediaS: 800px;
+
+@mixin mediaL {
+  @media (min-width: $mediaL) {
+    @content;
+  }
+}
+
+@mixin mediaM {
+  @media (min-width: $mediaM) {
+    @content;
+  }
+}
+
+@mixin mediaS {
+  @media (min-width: $mediaS) {
+    @content;
+  }
+}
